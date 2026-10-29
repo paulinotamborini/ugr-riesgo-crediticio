@@ -1,0 +1,88 @@
+{
+  "url": "https://ugr-riesgo-crediticio.streamlit.app/",
+  "fecha": "2026-10-29",
+  "metodo": "Desde el inicio de la acción automatizada de envío hasta que se observa la probabilidad esperada y, salvo la primera consulta, el nivel esperado. Incluye control remoto y espera de la automatización; no equivale a una medición de latencia pura de red. Excluye carga inicial e ingreso de campos.",
+  "base": {
+    "edad": 30,
+    "ingresos_anuales": 55000,
+    "antiguedad_empleo": 4,
+    "longitud_historial": 8,
+    "situacion_vivienda": "RENT",
+    "motivo_prestamo": "PERSONAL",
+    "historial_default": "N"
+  },
+  "consultas": [
+    {
+      "monto": 8000,
+      "probabilidad_esperada": "9.0%",
+      "nivel": "Bajo",
+      "segundos_observados": 0.973
+    },
+    {
+      "monto": 1000,
+      "probabilidad_esperada": "10.5%",
+      "nivel": "Bajo",
+      "segundos_observados": 2.214,
+      "calculo_servidor": "Versión v1 · Cálculo local de la predicción: 0.041 s. Este tiempo excluye red y carga de la página."
+    },
+    {
+      "monto": 15000,
+      "probabilidad_esperada": "18.4%",
+      "nivel": "Intermedio",
+      "segundos_observados": 1.43,
+      "calculo_servidor": "Versión v1 · Cálculo local de la predicción: 0.048 s. Este tiempo excluye red y carga de la página."
+    },
+    {
+      "monto": 25000,
+      "probabilidad_esperada": "97.8%",
+      "nivel": "Alto",
+      "segundos_observados": 2.199,
+      "calculo_servidor": "Versión v1 · Cálculo local de la predicción: 0.038 s. Este tiempo excluye red y carga de la página."
+    },
+    {
+      "monto": 35000,
+      "probabilidad_esperada": "97.2%",
+      "nivel": "Alto",
+      "segundos_observados": 2.399,
+      "calculo_servidor": "Versión v1 · Cálculo local de la predicción: 0.042 s. Este tiempo excluye red y carga de la página."
+    },
+    {
+      "monto": 5000,
+      "probabilidad_esperada": "13.1%",
+      "nivel": "Intermedio",
+      "segundos_observados": 1.095,
+      "calculo_servidor": "Versión v1 · Cálculo local de la predicción: 0.039 s. Este tiempo excluye red y carga de la página."
+    },
+    {
+      "monto": 10000,
+      "probabilidad_esperada": "6.4%",
+      "nivel": "Bajo",
+      "segundos_observados": 0.811,
+      "calculo_servidor": "Versión v1 · Cálculo local de la predicción: 0.041 s. Este tiempo excluye red y carga de la página."
+    },
+    {
+      "monto": 20000,
+      "probabilidad_esperada": "98.0%",
+      "nivel": "Alto",
+      "segundos_observados": 1.003,
+      "calculo_servidor": "Versión v1 · Cálculo local de la predicción: 0.037 s. Este tiempo excluye red y carga de la página."
+    },
+    {
+      "monto": 30000,
+      "probabilidad_esperada": "97.3%",
+      "nivel": "Alto",
+      "segundos_observados": 0.814,
+      "calculo_servidor": "Versión v1 · Cálculo local de la predicción: 0.059 s. Este tiempo excluye red y carga de la página."
+    },
+    {
+      "monto": 7000,
+      "probabilidad_esperada": "9.6%",
+      "nivel": "Bajo",
+      "segundos_observados": 0.851,
+      "calculo_servidor": "Versión v1 · Cálculo local de la predicción: 0.049 s. Este tiempo excluye red y carga de la página."
+    }
+  ],
+  "maximo_segundos": 2.399,
+  "limite_propuesto_segundos": 2,
+  "cumple_todas_observaciones": false
+}

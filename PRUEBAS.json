@@ -16,7 +16,19 @@
   "maximo_segundos": 0.16726079999989452,
   "limite_propuesto_segundos": 2,
   "cumple_local": true,
-  "publicacion": "pendiente de repositorio y conexión Streamlit",
+  "publicacion": "Publicada y verificada el 2026-10-29: https://ugr-riesgo-crediticio.streamlit.app/",
+  "verificacion_publica": {
+    "registro": "evidencias/consultas_publicas.json",
+    "consultas_coincidentes_con_modelo_local": 10,
+    "maximo_observado_segundos": 2.399,
+    "cumple_limite_publico_2_segundos": false,
+    "alcance": "Tiempo observado desde automatización, con control remoto y espera; no equivale a latencia pura de red ni incluye carga inicial.",
+    "validacion_ingreso_cero": true,
+    "limpieza_resultado_anterior": true,
+    "advertencia_fuera_rango": true,
+    "graficos_cargados": 3,
+    "repeticion_suite_windows": "Python 3.12.10; 21 passed in 3.86s"
+  },
   "versiones": {
     "streamlit": "1.66.1",
     "sklearn": "1.8.0",

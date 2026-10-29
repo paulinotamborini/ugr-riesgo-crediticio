@@ -2,6 +2,10 @@
 
 Aplicación Streamlit de la fase 6 del trabajo de Ingeniería de Software. Reutiliza el Pipeline y los umbrales auditados del notebook. Tiene dos apartados: Evaluar solicitud y Resultados del modelo.
 
+**Aplicación publicada:** https://ugr-riesgo-crediticio.streamlit.app/
+
+Desplegada y verificada el 29/10/2026. Modelo v1, Python 3.12 y scikit-learn 1.8.0. Se repitieron las 21 pruebas locales y diez consultas en la URL pública coincidieron con el modelo local. Las [evidencias](evidencias/README.md) y el [texto actualizado para Colab](FASE6_PARA_COLAB.md) incluyen las capturas y los pendientes de aceptación. La muestra observada desde la automatización tuvo un máximo de 2,399 s; no acredita un límite público de 2 s.
+
 ## Ejecutar en la computadora
 
 Usar Python 3.12. Abrir una terminal dentro de esta carpeta:
@@ -28,7 +32,7 @@ La terminal muestra la dirección local para abrir en el navegador. La aplicaci�
 5. Desplegar, comprobar el acceso como visitante y copiar el enlace en la fase 6 del notebook.
 6. Ejecutar los casos de aceptación sobre la URL desplegada, tomar capturas de ambos apartados y reemplazar el estado pendiente del documento de fase 6 por las evidencias reales.
 
-El paquete está preparado para publicación; no incluye una URL ya desplegada ni credenciales. No se modificó el repositorio Strelia.
+El paquete completo está publicado en este repositorio y conectado a Streamlit Community Cloud. No contiene credenciales. No se modificó el repositorio Strelia.
 
 ## Artefactos y reproducibilidad
 

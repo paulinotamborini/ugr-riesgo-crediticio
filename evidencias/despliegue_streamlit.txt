@@ -1,0 +1,243 @@
+Browser tab: 1, Title: "Evaluación crediticia | Grupo 1 UGR · Streamlit", URL: "https://ugr-riesgo-crediticio.streamlit.app/#resultado-de-la-evaluacion".
+1 AXWebArea Evaluación crediticia | Grupo 1 UGR · Streamlit, URL: ugr-riesgo-crediticio.streamlit.app/#resultado-de-la-evaluacion
+	2 container
+		3 container streamlitApp
+			4 AXWebArea Evaluación crediticia | Grupo 1 UGR, URL: ugr-riesgo-crediticio.streamlit.app/~/+/#resultado-de-la-evaluacion
+				5 container
+					6 container
+						7 link Description: Skip to main content, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#stMain
+						8 container
+							9 button Share
+							10 button favorite
+							11 button edit
+							12 button source
+							13 pop up button (collapsed) Description: Main menu, Secondary Actions: Expand
+						14 container stMain
+							15 text UGR · GRUPO 1 · APOYO A LA DECISIÓN
+							16 heading Evaluación crediticia, Value: 1, ID: evaluacion-crediticia
+								17 text Evaluación crediticia
+								18 link Description: Link to heading, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#evaluacion-crediticia
+							19 text Consultá el riesgo estimado de una solicitud y la evidencia histórica del modelo. La recomendación orienta la revisión; la decisión final corresponde al operador.
+							20 text Modelo v1 · Random forest · 25.928 registros de entrenamiento
+							21 tab group react-aria1342141001-:r3:
+								22 tab (selected, settable, boolean) Evaluar solicitud, ID: react-aria1342141001-:r3:-tab-0, Value: 1
+Evaluar solicitud
+								23 tab (selectable, settable, boolean) Resultados del modelo, ID: react-aria1342141001-:r3:-tab-1, Value: 0
+Resultados del modelo
+							24 container Description: Evaluar solicitud, ID: react-aria1342141001-:r3:-tabpanel-0
+								25 heading Datos de la solicitud, Value: 3, ID: datos-de-la-solicitud
+									26 text Datos de la solicitud
+									27 link Description: Link to heading, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#datos-de-la-solicitud
+								28 text Usá las unidades monetarias del dataset de referencia. Su moneda no está documentada: no interpretes los importes como pesos ni conviertas monedas sin validar la fuente.
+								29 container
+									30 stepper (settable, integer) Description: Edad (años), Value: 100, ID: :rf:
+									31 button Decrement
+									32 button Increment
+								33 container
+									34 stepper (settable, integer) Description: Ingreso anual (unidades del dataset), Value: 55000, Details: 55000,00, ID: :rl:
+									35 button Decrement
+									36 button Increment
+								37 container
+									38 checkbox (settable, integer) Description: Antigüedad laboral desconocida, Value: 0
+									39 text Antigüedad laboral desconocida
+								40 container
+									41 button Help for Antigüedad laboral (años)
+									42 stepper (settable, integer) Description: Antigüedad laboral (años), Value: 4, Details: 4,00, ID: :rr:
+									43 button Decrement
+									44 button Increment
+								45 container
+									46 stepper (settable, integer) Description: Monto del préstamo (unidades del dataset), Value: 7000, Details: 7000,00, ID: :r13:
+									47 button Decrement
+									48 button Increment
+								49 container
+									50 combo box (collapsed, settable) Description: Situación de vivienda, Value: Alquiler, ID: react-aria1342141001-:r1t:, Secondary Actions: Expand
+									51 pop up button (collapsed) Description: Open, ID: react-aria1342141001-:r1p:, Secondary Actions: Expand
+								52 container
+									53 combo box (collapsed, settable) Description: Destino del préstamo, Value: Personal, ID: react-aria1342141001-:r2b:, Secondary Actions: Expand
+									54 pop up button (collapsed) Description: Open, ID: react-aria1342141001-:r27:, Secondary Actions: Expand
+								55 container
+									56 combo box (collapsed, settable) Description: Antecedentes de incumplimiento, Value: No, ID: react-aria1342141001-:r2p:, Secondary Actions: Expand
+									57 pop up button (collapsed) Description: Open, ID: react-aria1342141001-:r2l:, Secondary Actions: Expand
+								58 container
+									59 stepper (settable, integer) Description: Antigüedad del historial crediticio (años), Value: 8, ID: :r19:
+									60 button Decrement
+									61 button Increment
+								62 button Evaluar solicitud
+									63 text Evaluar solicitud
+								64 heading Resultado de la evaluación, Value: 3, ID: resultado-de-la-evaluacion
+									65 text Resultado de la evaluación
+									66 link Description: Link to heading, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#resultado-de-la-evaluacion
+								67 container
+									68 text Probabilidad estimada
+									69 text 11.4%
+								70 container
+									71 text Nivel de riesgo
+									72 text Bajo
+								73 container
+									74 text Monto / ingreso anual
+									75 text 12.7%
+								76 text Revisión habitual. El nivel bajo conserva riesgo de incumplimiento.
+								77 text Hay valores fuera de los rangos históricos de referencia. Revisá su representatividad antes de interpretar la estimación.
+								78 text Versión v1 · Cálculo local de la predicción: 0.045 s. Este tiempo excluye red y carga de la página.
+								79 text La probabilidad corresponde a la etiqueta histórica de incumplimiento. No representa un riesgo a 12 meses ni a otro plazo documentado.
+								80 button (collapsed) Cómo se interpreta el nivel, Secondary Actions: Expand
+									81 text Cómo se interpreta el nivel
+							82 text Ingeniería de Software · Grupo 1 UGR · Modelo versionado y decisión humana
+		83 container
+			84 container
+				85 text [     UTC     ]  Logs for ugr-riesgo-crediticio.streamlit.app/
+			86 text ────────────────────────────────────────────────────────────────────────────────────────
+			87 container
+				88 text [12:59:05]  🚀 Starting up repository: 'ugr-riesgo-crediticio', branch: 'main', main module: 'app.py'
+			89 container
+				90 text [12:59:05]  🐙 Cloning repository...
+			91 container
+				92 text [12:59:05]  🐙 Cloning into '/mount/src/ugr-riesgo-crediticio'...
+
+			93 container
+				94 text [12:59:05]  🐙 Cloned repository!
+			95 container
+				96 text [12:59:05]  🐙 Pulling code changes from Github...
+			97 container
+				98 text [12:59:06]  📦 Processing dependencies...
+			99 text ──────────────────────────────────────── uv ───────────────────────────────────────────
+			100 text Using uv pip install.
+			101 text Using Python 3.12.16 environment at: /home/adminuser/venv
+			102 text Resolved 40 packages in 388ms
+			103 text Downloading streamlit (9.9MiB)
+			104 text Downloading pydeck (10.9MiB)
+			105 text Downloading pandas (12.1MiB)
+			106 text Downloading pillow (6.8MiB)
+			107 text Downloading numpy (15.8MiB)
+			108 text Downloading pyarrow (51.4MiB)
+			109 text Downloading scikit-learn (8.5MiB)
+			110 text Downloading scipy (33.7MiB)
+			111 text  Downloaded pillow
+			112 text  Downloaded scikit-learn
+			113 text  Downloaded streamlit
+			114 text  Downloaded pydeck
+			115 text  Downloaded pandas
+			116 text  Downloaded numpy
+			117 text  Downloaded scipy
+			118 text  Downloaded pyarrow
+			119 text Prepared 39 packages in 1.11s
+			120 text Installed 39 packages in 76ms
+			121 text  [2026-10-29 12:59:08.223900] + altair==6.3.0
+			122 text  + anyio==4.15.1
+			123 text  + attrs==26.1.0
+			124 text  + charset-normalizer==3.5.2
+			125 text  + click==8.5.0
+			126 text  + h11==0.16.0
+			127 text  + idna==3.20
+			128 text  +[2026-10-29 12:59:08.224168]  itsdangerous==2.2.0
+			129 text  + jinja2==3.1.6
+			130 text  + joblib==1.5.3
+			131 text  + jsonschema==4.26.0
+			132 text  + jsonschema-specifications==2025.9.1
+			133 text  + markupsafe==3.0.4
+			134 text  + narwhals==2.28.0
+			135 text  + numpy[2026-10-29 12:59:08.224570] ==2.3.5
+			136 text  + packaging==26.3
+			137 text  + pandas==2.2.3
+			138 text  + pillow==13.0.0
+			139 text  + [2026-10-29 12:59:08.224802] protobuf==7.36.2
+			140 text  + pyarrow==26.0.0
+			141 text  + pydeck==0.9.3
+			142 text  + python-dateutil==3.0.[2026-10-29 12:59:08.224917] 0
+			143 text  + python-multipart==0.0.32
+			144 text  + pytz==2026.6
+			145 text  + referencing==0.37.0
+			146 text  + requests==2.34.2
+			147 text  + rpds-py==[2026-10-29 12:59:08.225049] 2026.9.1
+			148 text  + scikit-learn==1.8.0
+			149 text  + scipy==1.18.1
+			150 text  + six==1.17.0
+			151 text  [2026-10-29 12:59:08.225171] + starlette==1.10.0
+			152 text  + streamlit==1.66.1
+			153 text  + threadpoolctl==3.7.0
+			154 text  [2026-10-29 12:59:08.225292] + typing-extensions==4.16.0
+			155 text  + tzdata==2026.6
+			156 text  + urllib3==2.8.0
+			157 text  + uvicorn==0.[2026-10-29 12:59:08.225436] 54.0
+			158 text  + watchdog==6.0.0
+			159 text  + websockets==17.3
+			160 text Collecting certifi>=2026.10.19
+			161 text   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+			162 text Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+			163 text Installing collected packages: certifi
+			164 text   Attempting uninstall: certifi
+			165 text     Found existing installation: certifi 2026.10.23
+			166 text     Uninstalling certifi-2026.10.23:
+			167 text       Successfully uninstalled certifi-2026.10.23
+			168 text Successfully installed certifi-2026.10.23
+			169 text Collecting pip>=26.2.2
+			170 text   Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+			171 text Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+			172 text    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 73.2 MB/s  0:00:00[2026-10-29 12:59:10.278237] 
+			173 text Installing collected packages: pip
+			174 text   Attempting uninstall: pip
+			175 text     Found existing installation: pip 26.2.2
+			176 text     Uninstalling pip-26.2.2:
+			177 text       Successfully uninstalled pip-26.2.2
+			178 text Successfully installed pip-26.2.2
+			179 text Checking if Streamlit is installed
+			180 text Found Streamlit version 1.66.1 in the environment
+			181 text Detected pyarrow 26.0.0 (known segfault, apache/arrow#50471). Replacing with pyarrow<25.
+			182 text Using uv pip install.
+			183 text Using Python 3.12.16 environment at: /home/adminuser/venv
+			184 text Resolved 1 package in 83ms
+			185 text Downloading pyarrow (46.6MiB)
+			186 text  Downloaded pyarrow
+			187 text Prepared 1 package in 873ms
+			188 text Uninstalled 1 package in 14ms
+			189 text Installed 1 package in 20ms
+			190 text  - pyarrow[2026-10-29 12:59:14.421610] ==26.0.0
+			191 text  + pyarrow==24.0.0
+			192 text Installing rich for an improved exception logging
+			193 text Using uv pip install.
+			194 text Using Python 3.12.16 environment at: /home/adminuser/venv
+			195 text Resolved 4 packages in 169ms
+			196 text Downloading pygments (1.2MiB)
+			197 text  Downloaded pygments
+			198 text Prepared 4 packages in 59ms
+			199 text Installed 4 packages in 11ms
+			200 text  + markdown-it-py==4.2.0
+			201 text  + mdurl==0.1.2[2026-10-29 12:59:14.959679] 
+			202 text  + pygments==2.21.0
+			203 text  + rich==15.0.0
+			204 text ────────────────────────────────────────────────────────────────────────────────────────
+			205 container
+				206 text [12:59:15]  🐍 Python dependencies were installed from  /mount/src/ugr-riesgo-crediticio/requirements.txt  using  uv .
+			207 text Check if streamlit is installed
+			208 text Streamlit is already installed
+			209 text Collecting certifi>=2026.10.19
+			210 text   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+			211 text Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+			212 text Installing collected packages: certifi
+			213 text   Attempting uninstall: certifi
+			214 text     Found existing installation: certifi 2026.10.23
+			215 text     Uninstalling certifi-2026.10.23:
+			216 text       Successfully uninstalled certifi-2026.10.23
+			217 text Successfully installed certifi-2026.10.23
+			218 text Collecting pip>=26.2.2
+			219 text   Downloading pip-26.2.2-py3-none-any.whl.metadata (4.6 kB)
+			220 text Downloading pip-26.2.2-py3-none-any.whl (1.8 MB)
+			221 text    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 87.7 MB/s  0:00:00[2026-10-29 12:59:17.791420] 
+			222 text Installing collected packages: pip
+			223 text   Attempting uninstall: pip
+			224 text     Found existing installation: pip 26.2.2
+			225 text     Uninstalling pip-26.2.2:
+			226 text       Successfully uninstalled pip-26.2.2
+			227 text Successfully installed pip-26.2.2
+			228 container
+				229 text [12:59:19]  📦 Processed dependencies!
+			230 text 2026-10-29 12:59:21.086 Uvicorn server started on :::8501
+		231 container
+			232 text main
+			233 text paulinotamborini/ugr-riesgo-crediticio/main/app.py
+			234 pop up button (collapsed) Secondary Actions: Expand
+				235 image
+			236 button Close manage app panel
+				237 image
+
+The focused UI element is 1 AXWebArea Evaluación crediticia | Grupo 1 UGR · Streamlit, URL: ugr-riesgo-crediticio.streamlit.app/#resultado-de-la-evaluacion

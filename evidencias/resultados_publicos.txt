@@ -1,0 +1,200 @@
+Browser tab: 1, Title: "Evaluación crediticia | Grupo 1 UGR · Streamlit", URL: "https://ugr-riesgo-crediticio.streamlit.app/#importancia-global-de-las-variables".
+1 AXWebArea Evaluación crediticia | Grupo 1 UGR · Streamlit, URL: ugr-riesgo-crediticio.streamlit.app/#importancia-global-de-las-variables
+	2 container
+		26 container streamlitApp
+			27 AXWebArea Evaluación crediticia | Grupo 1 UGR, URL: ugr-riesgo-crediticio.streamlit.app/~/+/#importancia-global-de-las-variables
+				28 container
+					29 container
+						30 link Description: Skip to main content, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#stMain
+						31 container
+							32 button Share
+							33 button favorite
+							34 button edit
+							35 button source
+							36 pop up button (collapsed) Description: Main menu, Secondary Actions: Expand
+						37 container stMain
+							38 text UGR · GRUPO 1 · APOYO A LA DECISIÓN
+							39 heading Evaluación crediticia, Value: 1, ID: evaluacion-crediticia
+								40 text Evaluación crediticia
+								41 link Description: Link to heading, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#evaluacion-crediticia
+							42 text Consultá el riesgo estimado de una solicitud y la evidencia histórica del modelo. La recomendación orienta la revisión; la decisión final corresponde al operador.
+							43 text Modelo v1 · Random forest · 25.928 registros de entrenamiento
+							44 tab group react-aria1342141001-:r3:
+								45 tab (selectable, settable, boolean) Evaluar solicitud, ID: react-aria1342141001-:r3:-tab-0, Value: 0
+Evaluar solicitud
+								46 tab (selected, settable, boolean) Resultados del modelo, ID: react-aria1342141001-:r3:-tab-1, Value: 1
+Resultados del modelo
+							238 container Description: Resultados del modelo, ID: react-aria1342141001-:r3:-tabpanel-1
+								239 heading Evaluación histórica del modelo, Value: 3, ID: evaluacion-historica-del-modelo
+									240 text Evaluación histórica del modelo
+									241 link Description: Link to heading, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#evaluacion-historica-del-modelo
+								242 text Resultados de la prueba reservada de 6.483 préstamos. No son indicadores de solicitudes ingresadas en esta aplicación.
+								243 container
+									244 text Average Precision
+									245 text 0.7761
+								246 container
+									247 text Brier score
+									248 text 0.0935
+								249 container
+									250 text Captura al priorizar 20 %
+									251 text 64.5%
+								252 container
+									253 button Show/hide columns
+									254 button Download as CSV
+									255 button Search
+									256 button Fullscreen
+									295 container
+										296 image
+											297 table
+												298 row Average Precision Brier score ROC AUC Lift al 20 % Captura al 20 %
+													299 cell (selectable)
+													300 cell (selectable) Average Precision
+													301 cell (selectable) Brier score
+													302 cell (selectable) ROC AUC
+													303 cell (selectable) Lift al 20 %
+													304 cell (selectable) Captura al 20 %
+												305 container
+													306 row (selectable) Random forest (prueba) 0.7761462603512923 0.09353581107383242 0.86779984322287 3.225380149264931 0.6452750352609309
+														307 cell (selectable) Value: Random forest (prueba), ID: glide-cell-0-0
+														308 cell (selectable) Value: 0.7761462603512923, ID: glide-cell-1-0
+														309 cell (selectable) Value: 0.09353581107383242, ID: glide-cell-2-0
+														310 cell (selectable) Value: 0.86779984322287, ID: glide-cell-3-0
+														311 cell (selectable) Value: 3.225380149264931, ID: glide-cell-4-0
+														312 cell (selectable) Value: 0.6452750352609309, ID: glide-cell-5-0
+													313 row (selectable) Referencia constante (prueba) 0.2187258985037791 0.17088487985077197 0.5 1 0.2
+														314 cell (selectable) Value: Referencia constante (prueba), ID: glide-cell-0-1
+														315 cell (selectable) Value: 0.2187258985037791, ID: glide-cell-1-1
+														316 cell (selectable) Value: 0.17088487985077197, ID: glide-cell-2-1
+														317 cell (selectable) Value: 0.5, ID: glide-cell-3-1
+														318 cell (selectable) Value: 1, ID: glide-cell-4-1
+														319 cell (selectable) Value: 0.2, ID: glide-cell-5-1
+													320 row (selectable) Random forest (validación) 0.772566617092952 0.09427798712996524 0.867474779449094 3.2081813800471854 0.6416857697055193
+														321 cell (selectable) Value: Random forest (validación), ID: glide-cell-0-2
+														322 cell (selectable) Value: 0.772566617092952, ID: glide-cell-1-2
+														323 cell (selectable) Value: 0.09427798712996524, ID: glide-cell-2-2
+														324 cell (selectable) Value: 0.867474779449094, ID: glide-cell-3-2
+														325 cell (selectable) Value: 3.2081813800471854, ID: glide-cell-4-2
+														326 cell (selectable) Value: 0.6416857697055193, ID: glide-cell-5-2
+										327 image
+								257 container
+									258 button Fullscreen: Captura, precisión-recall y calibración en prueba.
+									259 image
+									260 text Captura, precisión-recall y calibración en prueba.
+								261 heading Niveles y errores, Value: 3, ID: niveles-y-errores
+									262 text Niveles y errores
+									263 link Description: Link to heading, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#niveles-y-errores
+								264 container
+									265 button Show/hide columns
+									266 button Download as CSV
+									267 button Search
+									268 button Fullscreen
+									328 container
+										329 image
+											330 table
+												331 row Solicitudes % de solicitudes Incumplimientos Incumplimiento observado % de los incumplimientos totales
+													332 cell (selectable)
+													333 cell (selectable) Solicitudes
+													334 cell (selectable) % de solicitudes
+													335 cell (selectable) Incumplimientos
+													336 cell (selectable) Incumplimiento observado
+													337 cell (selectable) % de los incumplimientos totales
+												338 container
+													339 row (selectable) Bajo 3253 50.17738701218571 182 5.5948355364279125 12.834978843441466
+														340 cell (selectable) Value: Bajo, ID: glide-cell-0-0
+														341 cell (selectable) Value: 3253, ID: glide-cell-1-0
+														342 cell (selectable) Value: 50.17738701218571, ID: glide-cell-2-0
+														343 cell (selectable) Value: 182, ID: glide-cell-3-0
+														344 cell (selectable) Value: 5.5948355364279125, ID: glide-cell-4-0
+														345 cell (selectable) Value: 12.834978843441466, ID: glide-cell-5-0
+													346 row (selectable) Intermedio 1551 23.924109208699676 239 15.409413281753706 16.854724964739066
+														347 cell (selectable) Value: Intermedio, ID: glide-cell-0-1
+														348 cell (selectable) Value: 1551, ID: glide-cell-1-1
+														349 cell (selectable) Value: 23.924109208699676, ID: glide-cell-2-1
+														350 cell (selectable) Value: 239, ID: glide-cell-3-1
+														351 cell (selectable) Value: 15.409413281753706, ID: glide-cell-4-1
+														352 cell (selectable) Value: 16.854724964739066, ID: glide-cell-5-1
+													353 row (selectable) Alto 1679 25.898503779114606 997 59.380583680762356 70.31029619181946
+														354 cell (selectable) Value: Alto, ID: glide-cell-0-2
+														355 cell (selectable) Value: 1679, ID: glide-cell-1-2
+														356 cell (selectable) Value: 25.898503779114606, ID: glide-cell-2-2
+														357 cell (selectable) Value: 997, ID: glide-cell-3-2
+														358 cell (selectable) Value: 59.380583680762356, ID: glide-cell-4-2
+														359 cell (selectable) Value: 70.31029619181946, ID: glide-cell-5-2
+										360 image
+								269 container
+									270 button Fullscreen: Matriz de confusión para la alerta de riesgo alto.
+									271 image
+									272 text Matriz de confusión para la alerta de riesgo alto.
+								273 container
+									274 button Show/hide columns
+									275 button Download as CSV
+									276 button Search
+									277 button Fullscreen
+									361 container
+										362 image
+											363 table
+												364 row TP FP FN TN Precisión Recall F1 Cumplidores sin alerta
+													365 cell (selectable)
+													366 cell (selectable) TP
+													367 cell (selectable) FP
+													368 cell (selectable) FN
+													369 cell (selectable) TN
+													370 cell (selectable) Precisión
+													371 cell (selectable) Recall
+													372 cell (selectable) F1
+													373 cell (selectable) Cumplidores sin alerta
+												374 container
+													375 row (selectable) Alerta = 20% priorizado 915 382 503 4683 0.7054741711642252 0.6452750352609309 0.6740331491712708 0.9245804540967424
+														376 cell (selectable) Value: Alerta = 20% priorizado, ID: glide-cell-0-0
+														377 cell (selectable) Value: 915, ID: glide-cell-1-0
+														378 cell (selectable) Value: 382, ID: glide-cell-2-0
+														379 cell (selectable) Value: 503, ID: glide-cell-3-0
+														380 cell (selectable) Value: 4683, ID: glide-cell-4-0
+														381 cell (selectable) Value: 0.7054741711642252, ID: glide-cell-5-0
+														382 cell (selectable) Value: 0.6452750352609309, ID: glide-cell-6-0
+														383 cell (selectable) Value: 0.6740331491712708, ID: glide-cell-7-0
+														384 cell (selectable) Value: 0.9245804540967424, ID: glide-cell-8-0
+													385 row (selectable) Alerta = riesgo alto 997 682 421 4383 0.5938058368076236 0.7031029619181947 0.6438488860187278 0.865350444225074
+														386 cell (selectable) Value: Alerta = riesgo alto, ID: glide-cell-0-1
+														387 cell (selectable) Value: 997, ID: glide-cell-1-1
+														388 cell (selectable) Value: 682, ID: glide-cell-2-1
+														389 cell (selectable) Value: 421, ID: glide-cell-3-1
+														390 cell (selectable) Value: 4383, ID: glide-cell-4-1
+														391 cell (selectable) Value: 0.5938058368076236, ID: glide-cell-5-1
+														392 cell (selectable) Value: 0.7031029619181947, ID: glide-cell-6-1
+														393 cell (selectable) Value: 0.6438488860187278, ID: glide-cell-7-1
+														394 cell (selectable) Value: 0.865350444225074, ID: glide-cell-8-1
+													395 row (selectable) Alerta = riesgo alto o intermedio 1236 1994 182 3071 0.3826625386996904 0.8716502115655853 0.53184165232358 0.6063178677196446
+														396 cell (selectable) Value: Alerta = riesgo alto o intermedio, ID: glide-cell-0-2
+														397 cell (selectable) Value: 1236, ID: glide-cell-1-2
+														398 cell (selectable) Value: 1994, ID: glide-cell-2-2
+														399 cell (selectable) Value: 182, ID: glide-cell-3-2
+														400 cell (selectable) Value: 3071, ID: glide-cell-4-2
+														401 cell (selectable) Value: 0.3826625386996904, ID: glide-cell-5-2
+														402 cell (selectable) Value: 0.8716502115655853, ID: glide-cell-6-2
+														403 cell (selectable) Value: 0.53184165232358, ID: glide-cell-7-2
+														404 cell (selectable) Value: 0.6063178677196446, ID: glide-cell-8-2
+										405 image
+								278 heading Importancia global de las variables, Value: 3, ID: importancia-global-de-las-variables
+									279 text Importancia global de las variables
+									280 link Description: Link to heading, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#importancia-global-de-las-variables
+								281 container
+									282 button Fullscreen: Importancia por permutación. Describe el modelo global; no explica causalmente una solicitud individual.
+									283 image
+									284 text Importancia por permutación. Describe el modelo global; no explica causalmente una solicitud individual.
+								285 container
+									286 button (expanded) Alcance, límites y trazabilidad, Secondary Actions: Collapse
+										287 text Alcance, límites y trazabilidad
+									288 text El archivo original contiene 32.581 registros; la base limpia, 32.411. Se entrenó con 25.928 observaciones y nueve predictores. Las etiquetas, la moneda y el horizonte temporal no cuentan con documentación primaria suficiente para un uso operativo.
+									289 text La revisión por grupos es exploratoria y no acredita ausencia de sesgos. En prueba, el grupo alto registró 59,38 % de incumplimiento, frente a la meta de validación de 60 %. La última franja de calibración subestima el riesgo observado.
+									290 text Los umbrales y la utilización operativa requieren validación de Riesgos y Auditoría. Los resultados observados no garantizan desempeño futuro.
+									291 text SHA-256 del CSV: 07a70394593c1e25c968d129b7ac7dd0e959514a15115bdc5f5cc08e0ff7064a
+									292 container
+										293 text {
+										294 text ... }
+							89 text Ingeniería de Software · Grupo 1 UGR · Modelo versionado y decisión humana
+		234 button Manage app
+			235 image
+			236 text Manage app
+
+The focused UI element is 27 AXWebArea Evaluación crediticia | Grupo 1 UGR, URL: ugr-riesgo-crediticio.streamlit.app/~/+/#importancia-global-de-las-variables

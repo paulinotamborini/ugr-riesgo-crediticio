@@ -23,19 +23,41 @@ La aplicación utiliza nueve predictores a partir de ocho entradas. La proporci�
 
 | Requisito | Evidencia disponible | Estado |
 |---|---|---|
-| RF01 Ingreso y validación | Pruebas de valores inválidos, faltantes, categorías y coherencia. | Verificado localmente. |
-| RF02 Estimación y versión | Equivalencia con el Pipeline y prueba de consulta desde la interfaz. | Verificado localmente. |
-| RF03 Tres niveles y recomendación | Pruebas de ambos límites y zona intermedia; recomendación con decisión humana. | Verificado localmente. |
-| RF04 Visualización | Tablero con resultados y gráficos históricos versionados. | Verificado mediante AppTest; capturas del navegador pendientes. |
-| RNF01 Tiempo de respuesta | Diez consultas consecutivas medidas en AppTest, registradas en PRUEBAS.json. | Medición local disponible; verificar nuevamente en el despliegue. |
+| RF01 Ingreso y validación | 21 pruebas locales; en la URL pública, ingreso cero bloqueado después de una consulta válida y advertencia de edad fuera del rango histórico. | Verificado en los casos ejecutados. |
+| RF02 Estimación y versión | Diez consultas públicas contrastadas con las salidas del Pipeline local, versión v1. | Coinciden las probabilidades mostradas y los niveles. |
+| RF03 Tres niveles y recomendación | Fronteras verificadas localmente; en la aplicación publicada se observaron Bajo, Intermedio y Alto. | Verificado en los casos ejecutados. |
+| RF04 Visualización | Métricas y tres gráficos cargados; capturas en evidencias/. | Verificado en la URL publicada. |
+| RNF01 Tiempo de respuesta | Diez consultas públicas: entre 0,811 y 2,399 s observados desde la automatización. | No se acredita el límite de 2 s para todas las consultas; incluye espera del control remoto. |
 | RNF02 Usabilidad | Se completa la consulta sin editar código, con etiquetas, unidades y errores. | Flujo automático verificado; prueba con operador pendiente. |
-| RNF03 Mantenibilidad | Separación de interfaz y modelo, dependencias fijadas y comprobación de integridad. | Estructura implementada; publicación y versionado remoto pendientes. |
+| RNF03 Mantenibilidad | Separación de interfaz y modelo, dependencias fijadas, hashes verificados y paquete completo en GitHub. | Publicación y versionado remoto realizados. |
 
 ## 6.4 Publicación y vistas
 
-La aplicación está preparada para publicarse desde GitHub en Streamlit Community Cloud. Al terminar el despliegue, incorporar en esta sección el enlace real, la versión publicada, la fecha y las capturas de Evaluar solicitud y Resultados del modelo.
+La aplicación se publicó el **29 de octubre de 2026** en Streamlit Community Cloud:
 
-Estado actual: implementación y pruebas locales completas; publicación pendiente. No se afirma disponibilidad pública hasta verificar la URL.
+- Aplicación: https://ugr-riesgo-crediticio.streamlit.app/
+- Repositorio: https://github.com/paulinotamborini/ugr-riesgo-crediticio
+- Rama y entrada: `main`, `app.py`.
+- Commit de la aplicación y sus artefactos: `6fd86bb`.
+- Modelo: `v1`; Python de Cloud: `3.12.16`; scikit-learn: `1.8.0`.
+
+Se recuperó el paquete existente y se conservaron los bytes originales del modelo y de los demás artefactos. Los seis hashes coinciden con `integridad.json`. Se repitió la suite en Python 3.12.10 de Windows: **21 pruebas aprobadas en 3,86 s**. No se reentrenó el modelo.
+
+La verificación HTTP con un cliente nuevo, sin credenciales ni cookies iniciales, terminó en la URL pública con estado 200. La verificación funcional se realizó desde el navegador conectado a la cuenta del propietario. Una prueba de usabilidad con un operador sigue pendiente.
+
+Las diez consultas públicas mantuvieron edad 30, ingreso anual 55.000, antigüedad laboral 4, historial 8, vivienda Alquiler, destino Personal y sin antecedentes; se varió el monto entre 1.000 y 35.000. Las probabilidades redondeadas y los niveles coincidieron con el modelo local. El registro está en `evidencias/consultas_publicas.json`.
+
+Los tiempos observados incluyen la acción de envío, la espera del resultado y el control remoto del navegador; excluyen la carga inicial y la entrada de datos. Tres observaciones superaron 2 s. El cálculo de inferencia informado por el servidor estuvo entre 0,037 y 0,059 s en las nueve consultas cuyo valor se guardó. Estos tiempos no son equivalentes entre sí. **No se declara cumplido el límite público de 2 s**; queda pendiente una medición específica de rendimiento desde el navegador del operador.
+
+Evidencias del despliegue:
+
+![Resultado de una solicitud: monto 7.000 e ingreso anual 55.000](evidencias/01_evaluar_resultado.png)
+
+![Resultados históricos del modelo publicado](evidencias/04_resultados_modelo.png)
+
+![Importancia global de las variables](evidencias/06_importancia_global.png)
+
+El índice completo, las capturas de validación y los registros se encuentran en [evidencias/README.md](evidencias/README.md). Community Cloud ajustó automáticamente la dependencia transitiva PyArrow a 24.0.0 durante el despliegue; las seis dependencias directas fijadas se conservaron.
 
 ## 6.5 Mantenimiento y monitoreo
 

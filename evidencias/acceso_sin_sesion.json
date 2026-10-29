@@ -1,0 +1,23 @@
+{
+  "url": "https://ugr-riesgo-crediticio.streamlit.app/",
+  "url_final": "https://ugr-riesgo-crediticio.streamlit.app/",
+  "http": 200,
+  "redirecciones": [
+    {
+      "estado": 303,
+      "url": "https://ugr-riesgo-crediticio.streamlit.app/"
+    },
+    {
+      "estado": 303,
+      "url": "https://share.streamlit.io/-/auth/app"
+    },
+    {
+      "estado": 303,
+      "url": "https://ugr-riesgo-crediticio.streamlit.app/-/login"
+    }
+  ],
+  "autenticacion_enviada": false,
+  "cookies_iniciales": 0,
+  "fecha": "2026-10-29",
+  "nota": "Cliente HTTP nuevo, sin credenciales ni cookies iniciales; Streamlit emitió una sesión de visitante. Se omiten los parámetros transitorios del servicio."
+}

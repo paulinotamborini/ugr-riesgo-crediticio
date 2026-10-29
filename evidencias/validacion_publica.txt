@@ -1,0 +1,75 @@
+Browser tab: 1, Title: "Evaluación crediticia | Grupo 1 UGR · Streamlit", URL: "https://ugr-riesgo-crediticio.streamlit.app/#resultado-de-la-evaluacion".
+1 AXWebArea Evaluación crediticia | Grupo 1 UGR · Streamlit, URL: ugr-riesgo-crediticio.streamlit.app/#resultado-de-la-evaluacion
+	2 container
+		3 container streamlitApp
+			4 AXWebArea Evaluación crediticia | Grupo 1 UGR, URL: ugr-riesgo-crediticio.streamlit.app/~/+/#resultado-de-la-evaluacion
+				5 container
+					6 container
+						7 link Description: Skip to main content, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#stMain
+						8 container
+							9 button Share
+							10 button favorite
+							11 button edit
+							12 button source
+							13 pop up button (collapsed) Description: Main menu, Secondary Actions: Expand
+						14 container stMain
+							15 text UGR · GRUPO 1 · APOYO A LA DECISIÓN
+							16 heading Evaluación crediticia, Value: 1, ID: evaluacion-crediticia
+								17 text Evaluación crediticia
+								18 link Description: Link to heading, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#evaluacion-crediticia
+							19 text Consultá el riesgo estimado de una solicitud y la evidencia histórica del modelo. La recomendación orienta la revisión; la decisión final corresponde al operador.
+							20 text Modelo v1 · Random forest · 25.928 registros de entrenamiento
+							21 tab group react-aria1342141001-:r3:
+								22 tab (selected, settable, boolean) Evaluar solicitud, ID: react-aria1342141001-:r3:-tab-0, Value: 1
+Evaluar solicitud
+								23 tab (selectable, settable, boolean) Resultados del modelo, ID: react-aria1342141001-:r3:-tab-1, Value: 0
+Resultados del modelo
+							24 container Description: Evaluar solicitud, ID: react-aria1342141001-:r3:-tabpanel-0
+								25 heading Datos de la solicitud, Value: 3, ID: datos-de-la-solicitud
+									26 text Datos de la solicitud
+									27 link Description: Link to heading, Value: ugr-riesgo-crediticio.streamlit.app/~/+/#datos-de-la-solicitud
+								28 text Usá las unidades monetarias del dataset de referencia. Su moneda no está documentada: no interpretes los importes como pesos ni conviertas monedas sin validar la fuente.
+								29 container
+									30 stepper (settable, integer) Description: Edad (años), Value: 30, ID: :rf:
+									31 button Decrement
+									32 button Increment
+								33 container
+									34 stepper (settable, integer) Description: Ingreso anual (unidades del dataset), Value: 0, Details: 0,00, ID: :rl:
+									35 button Decrement
+									36 button Increment
+								37 container
+									38 checkbox (settable, integer) Description: Antigüedad laboral desconocida, Value: 0
+									39 text Antigüedad laboral desconocida
+								40 container
+									41 button Help for Antigüedad laboral (años)
+									42 stepper (settable, integer) Description: Antigüedad laboral (años), Value: 4, Details: 4,00, ID: :rr:
+									43 button Decrement
+									44 button Increment
+								45 container
+									46 stepper (settable, integer) Description: Monto del préstamo (unidades del dataset), Value: 7000, Details: 7000,00, ID: :r13:
+									47 button Decrement
+									48 button Increment
+								49 container
+									50 combo box (collapsed, settable) Description: Situación de vivienda, Value: Alquiler, ID: react-aria1342141001-:r1t:, Secondary Actions: Expand
+									51 pop up button (collapsed) Description: Open, ID: react-aria1342141001-:r1p:, Secondary Actions: Expand
+								52 container
+									53 combo box (collapsed, settable) Description: Destino del préstamo, Value: Personal, ID: react-aria1342141001-:r2b:, Secondary Actions: Expand
+									54 pop up button (collapsed) Description: Open, ID: react-aria1342141001-:r27:, Secondary Actions: Expand
+								55 container
+									56 combo box (collapsed, settable) Description: Antecedentes de incumplimiento, Value: No, ID: react-aria1342141001-:r2p:, Secondary Actions: Expand
+									57 pop up button (collapsed) Description: Open, ID: react-aria1342141001-:r2l:, Secondary Actions: Expand
+								58 container
+									59 stepper (settable, integer) Description: Antigüedad del historial crediticio (años), Value: 8, ID: :r19:
+									60 button Decrement
+									61 button Increment
+								62 button Evaluar solicitud
+									63 text Evaluar solicitud
+								83 text El ingreso anual y el monto deben ser mayores que cero.
+								84 button (collapsed) Cómo se interpreta el nivel, Secondary Actions: Expand
+									85 text Cómo se interpreta el nivel
+							82 text Ingeniería de Software · Grupo 1 UGR · Modelo versionado y decisión humana
+		86 button Manage app
+			87 image
+			88 text Manage app
+
+The focused UI element is 62 button Evaluar solicitud
