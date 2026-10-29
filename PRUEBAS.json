@@ -1,0 +1,30 @@
+{
+  "entorno": "AppTest local; excluye latencia de navegador y red pública",
+  "python": "3.12.14",
+  "consultas_segundos": [
+    0.13194929899998442,
+    0.127236215000039,
+    0.16726079999989452,
+    0.13031836100003602,
+    0.13006305999999768,
+    0.12600513699999283,
+    0.12703207499998825,
+    0.1343050640000456,
+    0.13017281300005834,
+    0.12625996099995973
+  ],
+  "maximo_segundos": 0.16726079999989452,
+  "limite_propuesto_segundos": 2,
+  "cumple_local": true,
+  "publicacion": "pendiente de repositorio y conexión Streamlit",
+  "versiones": {
+    "streamlit": "1.66.1",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "joblib": "1.5.3",
+    "pytest": "9.2.0"
+  },
+  "suite": "21 pruebas automatizadas; revisión independiente y dos hallazgos corregidos con regresiones"
+}

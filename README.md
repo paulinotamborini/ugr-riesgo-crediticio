@@ -32,7 +32,7 @@ El paquete está preparado para publicación; no incluye una URL ya desplegada n
 
 ## Artefactos y reproducibilidad
 
-- `modelo_riesgo.joblib`: Pipeline auditado con nueve predictores, incluido el preprocesamiento. Está comprimido con zlib; joblib lo abre directamente, sin cambiar los parámetros aprendidos.
+- `modelo_riesgo.joblib`: Pipeline auditado con nueve predictores, incluido el preprocesamiento.
 - `modelo_config.json`: umbrales, esquema y versión originales.
 - `resultados.json`: métricas históricas, rangos de referencia, versiones del entrenamiento y SHA-256 del CSV.
 - `integridad.json`: hashes de los artefactos y gráficos. La app falla de forma explícita si no coinciden.

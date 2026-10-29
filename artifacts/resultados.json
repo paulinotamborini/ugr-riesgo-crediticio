@@ -1,0 +1,133 @@
+{
+  "comparacion": {
+    "Random forest (prueba)": {
+      "Average Precision": 0.7761462603512923,
+      "Brier score": 0.09353581107383242,
+      "ROC AUC": 0.86779984322287,
+      "Lift al 20 %": 3.225380149264931,
+      "Captura al 20 %": 0.6452750352609309
+    },
+    "Referencia constante (prueba)": {
+      "Average Precision": 0.2187258985037791,
+      "Brier score": 0.17088487985077197,
+      "ROC AUC": 0.5,
+      "Lift al 20 %": 1.0,
+      "Captura al 20 %": 0.2
+    },
+    "Random forest (validación)": {
+      "Average Precision": 0.772566617092952,
+      "Brier score": 0.09427798712996524,
+      "ROC AUC": 0.867474779449094,
+      "Lift al 20 %": 3.2081813800471854,
+      "Captura al 20 %": 0.6416857697055193
+    }
+  },
+  "metricas_alerta": {
+    "Alerta = 20% priorizado": {
+      "TP": 915,
+      "FP": 382,
+      "FN": 503,
+      "TN": 4683,
+      "Precisión": 0.7054741711642252,
+      "Recall": 0.6452750352609309,
+      "F1": 0.6740331491712708,
+      "Cumplidores sin alerta": 0.9245804540967424
+    },
+    "Alerta = riesgo alto": {
+      "TP": 997,
+      "FP": 682,
+      "FN": 421,
+      "TN": 4383,
+      "Precisión": 0.5938058368076236,
+      "Recall": 0.7031029619181947,
+      "F1": 0.6438488860187278,
+      "Cumplidores sin alerta": 0.865350444225074
+    },
+    "Alerta = riesgo alto o intermedio": {
+      "TP": 1236,
+      "FP": 1994,
+      "FN": 182,
+      "TN": 3071,
+      "Precisión": 0.3826625386996904,
+      "Recall": 0.8716502115655853,
+      "F1": 0.53184165232358,
+      "Cumplidores sin alerta": 0.6063178677196446
+    }
+  },
+  "niveles_test": {
+    "Bajo": {
+      "Solicitudes": 3253,
+      "% de solicitudes": 50.17738701218571,
+      "Incumplimientos": 182,
+      "Incumplimiento observado": 5.5948355364279125,
+      "% de los incumplimientos totales": 12.834978843441466
+    },
+    "Intermedio": {
+      "Solicitudes": 1551,
+      "% de solicitudes": 23.924109208699676,
+      "Incumplimientos": 239,
+      "Incumplimiento observado": 15.409413281753706,
+      "% de los incumplimientos totales": 16.854724964739066
+    },
+    "Alto": {
+      "Solicitudes": 1679,
+      "% de solicitudes": 25.898503779114606,
+      "Incumplimientos": 997,
+      "Incumplimiento observado": 59.380583680762356,
+      "% de los incumplimientos totales": 70.31029619181946
+    }
+  },
+  "raw_shape": [
+    32581,
+    12
+  ],
+  "limpio_shape": [
+    32411,
+    12
+  ],
+  "train_shape": [
+    25928,
+    9
+  ],
+  "test_shape": [
+    6483,
+    9
+  ],
+  "csv_sha256": "07a70394593c1e25c968d129b7ac7dd0e959514a15115bdc5f5cc08e0ff7064a",
+  "versiones": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "joblib": "1.5.3",
+    "gdown": "6.4.2",
+    "ipython": "9.17.1"
+  },
+  "rangos_predictores": {
+    "edad": {
+      "min": 20.0,
+      "max": 94.0
+    },
+    "ingresos_anuales": {
+      "min": 4000.0,
+      "max": 2039784.0
+    },
+    "antiguedad_empleo": {
+      "min": 0.0,
+      "max": 41.0
+    },
+    "monto_prestamo": {
+      "min": 500.0,
+      "max": 35000.0
+    },
+    "longitud_historial": {
+      "min": 2.0,
+      "max": 30.0
+    },
+    "porcentaje_ingreso": {
+      "min": 0.0007894736842105263,
+      "max": 0.83
+    }
+  }
+}

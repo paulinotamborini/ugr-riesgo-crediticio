@@ -1,0 +1,21 @@
+{
+  "version": "v1",
+  "modelo": "Random forest",
+  "umbral_bajo": 0.12656146822210407,
+  "umbral_alto": 0.23588956011347326,
+  "predictores": [
+    "edad",
+    "ingresos_anuales",
+    "antiguedad_empleo",
+    "monto_prestamo",
+    "porcentaje_ingreso",
+    "longitud_historial",
+    "situacion_vivienda",
+    "motivo_prestamo",
+    "historial_default"
+  ],
+  "semilla": 42,
+  "registros_entrenamiento": 25928,
+  "regla_umbral_bajo": "incumplimiento máximo 10%, entre 20% y 50% de solicitudes",
+  "regla_umbral_alto": "precisión mínima 60%, entre 5% y 30% de solicitudes"
+}
